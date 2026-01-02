@@ -106,12 +106,12 @@ chmod -R ${DATA_PERM} ${DATA_DIR}
 echo "---Server ready---"
 
 echo "---Start Server---"
-if [ ! -f ${SERVER_DIR}/ShooterGame/Binaries/Win64/ShooterGameServer.exe ]; then
+if [ ! -f ${SERVER_DIR}/ShooterGame/Binaries/Win64/ArkAscendedServer.exe ]; then
   echo "---Something went wrong, can't find the executable, putting container into sleep mode!---"
   sleep infinity
 else
   cd ${SERVER_DIR}/ShooterGame/Binaries/Win64
-  wine64 ShooterGameServer.exe ${MAP}?listen?SessionName=${SERVER_NAME}?ServerPassword=${SRV_PWD}?ServerAdminPassword=${SRV_ADMIN_PWD}${GAME_PARAMS} ${GAME_PARAMS_EXTRA} >/dev/null 2>&1 &
+  wine64 ArkAscendedServer.exe ${MAP}?listen?SessionName=${SERVER_NAME}?ServerPassword=${SRV_PWD}?ServerAdminPassword=${SRV_ADMIN_PWD}${GAME_PARAMS} ${GAME_PARAMS_EXTRA} >/dev/null 2>&1 &
   echo "Waiting for logs..."
   ATTEMPT=0
   sleep 2
