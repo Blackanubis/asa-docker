@@ -1,5 +1,5 @@
 #!/bin/bash
-killpid="$(pidof ShooterGameServer.exe)"
+killpid="$(pidof ArkAscendedServer.exe)"
 while true
 do
   tail --pid=$killpid -f /dev/null
