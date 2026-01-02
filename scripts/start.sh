@@ -26,8 +26,8 @@ chown -R ${UID}:${GID} ${DATA_DIR}
 
 echo "---Starting...---"
 term_handler() {
-	kill -SIGINT  $(pidof ShooterGameServer.exe)
-	tail --pid=$(pidof ShooterGameServer.exe) -f 2>/dev/null
+	kill -SIGINT  $(pidof ArkAscendedServer.exe)
+	tail --pid=$(pidof ArkAscendedServer.exe) -f 2>/dev/null
 	exit 143;
 }
 
