@@ -1,5 +1,5 @@
 # SteamCMD in Docker optimized for Unraid
-This Docker will download and install SteamCMD. It will also install ARK:SurvivalEvolved and run it (Normal server startup of ARK can take a long time!).
+This Docker will download and install SteamCMD. It will also install ARK:Survival Ascended and run it (Normal server startup of ARK can take a long time!).
 
 **WARNING:** You have to set the value vm.max_map_count to at least 256000 on the host as root with the command:  
 `echo 265000 > /proc/sys/vm/max_map_count`  
