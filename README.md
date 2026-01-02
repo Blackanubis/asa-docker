@@ -16,7 +16,7 @@ You can also run multiple servers with only one SteamCMD directory!
 | --- | --- | --- |
 | STEAMCMD_DIR | Folder for SteamCMD | /serverdata/steamcmd |
 | SERVER_DIR | Folder for gamefile | /serverdata/serverfiles |
-| GAME_ID | The GAME_ID that the container downloads at startup. If you want to install a static or beta version of the game change the value to: '376030 -beta YOURBRANCH' (without quotes, replace YOURBRANCH with the branch or version you want to install). | 376030 |
+| GAME_ID | The GAME_ID that the container downloads at startup. If you want to install a static or beta version of the game change the value to: '376030 -beta YOURBRANCH' (without quotes, replace YOURBRANCH with the branch or version you want to install). | 2430930 |
 | MAP | Enter your preferred map name | TheIsland |
 | SERVER_NAME | Your server name goes here | ASE Docker |
 | SRV_PWD | Your server password goes here | Docker |
